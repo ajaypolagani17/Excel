@@ -1,0 +1,57 @@
+/* Whole Page Background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff; /* Light sky blue */
+  padding: 40px;
+  margin: 0;
+}
+
+/* Heading */
+h2 {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form Container */
+form {
+  background: #ffffff; /* White form card */
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels */
+label {
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Input, Select, Textarea Fields */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
